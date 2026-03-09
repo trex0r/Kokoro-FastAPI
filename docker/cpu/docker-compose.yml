@@ -7,7 +7,7 @@ services:
     volumes:
       - ../../api:/app/api
     ports:
-      - "8880:8880"
+      - "7144:8880"
     environment:
       - PYTHONPATH=/app:/app/api
       # ONNX Optimization Settings for vectorized operations
